@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="16dp"
+    android:layout_marginTop="16dp"
+    android:layout_marginRight="16dp"
+    android:layout_marginLeft="16dp"
+    tools:context="com.example.knowledge_test_quiz_application.DeveloperActivity"
+
+
+    >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/developer"
+        android:id="@+id/textView2"
+        android:layout_marginTop="33dp"
+        android:textSize="40sp"
+        android:layout_alignParentTop="true"
+        android:textColor="#000000"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:layout_alignParentEnd="false"
+        android:layout_alignParentStart="false"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/back"
+
+        android:id="@+id/button4"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="31dp"
+        android:background="#01579B"
+        android:textColor="#ffffff" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="91dp"
+        android:layout_height="99dp"
+        android:layout_below="@+id/textView2"
+        android:layout_alignEnd="@+id/button4"
+        android:layout_alignStart="@+id/button4"
+        android:layout_marginTop="43dp"
+        android:layout_marginEnd="288dp"
+
+        android:contentDescription="@string/image"
+        android:src="@drawable/adithya" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imageView"
+        android:layout_alignEnd="@+id/textView7"
+        android:layout_alignStart="@+id/textView7"
+        android:layout_marginTop="11dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginStart="2dp"
+        android:text="@string/adithya"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView5"
+        android:layout_alignEnd="@+id/textView5"
+        android:layout_alignStart="@+id/textView5"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="-100dp"
+        android:layout_marginStart="-53dp"
+        android:text="@string/santhuadithyaa051_gmail_com"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="42dp"
+        android:text="@string/adithya07"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView7"
+        android:layout_alignStart="@+id/textView7"
+        android:layout_alignLeft="@+id/textView7"
+        android:layout_marginStart="-15dp"
+        android:layout_marginLeft="-16dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/adithya2001_gmail_com"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignWithParentIfMissing="false"
+        android:layout_alignTop="@+id/textView7"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="false"
+        android:layout_alignParentEnd="false"
+        android:layout_alignParentBottom="false"
+        android:layout_marginStart="17dp"
+        android:layout_marginLeft="17dp"
+        android:layout_marginTop="-5dp"
+        android:contentDescription="@string/image"
+        android:src="@drawable/adithya" />
+
+
+</RelativeLayout>

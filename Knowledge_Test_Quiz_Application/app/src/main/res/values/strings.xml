@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Knowledge_Test_Quiz_Application</string>
+    <string name="quizapp">QuizApp</string>
+    <string name="enter_your_name">enter your name</string>
+    <string name="start">Start</string>
+    <string name="about">About</string>
+    <string name="str">Start</string>
+    <string name="aboutdevelop">About</string>
+    <string name="buttonstart">Start</string>
+    <string name="developer">Developer</string>
+    <string name="back">Back</string>
+    <string name="santhuadithyaa051_gmail_com">santhuadithyaa051_gmail_com</string>
+    <string name="adithya2001_gmail_com">adithya2001_gmail_com</string>
+    <string name="image">image</string>
+    <string name="adithya">Adithya</string>
+    <string name="adithya07">Adithya07</string>
+    <string name="next_question">Next Question</string>
+    <string name="a">A</string>
+    <string name="b">B</string>
+    <string name="c">C</string>
+    <string name="d">D</string>
+    <string name="quit">Quit</string>
+    <string name="questions">Questions</string>
+    <string name="your_score">Your Score</string>
+    <string name="_0">0</string>
+    <string name="final_score">final_score</string>
+    <string name="wrong_answers">Wrong_answers</string>
+    <string name="restart">restart</string>
+    <string name="correct_answers">Correct answers</string>
+</resources>
